@@ -1,0 +1,17 @@
+2025-06-24 23:56:25,991 - INFO - Starting book scraping process
+2025-06-24 23:56:25,991 - INFO - Scraping page 1/3
+2025-06-24 23:56:27,886 - INFO - Scraping page 2/3
+2025-06-24 23:56:29,573 - INFO - Scraping page 3/3
+2025-06-24 23:56:31,454 - ERROR - Critical error in main execution
+Traceback (most recent call last):
+  File "C:\Users\ferna\PycharmProjects\python-automation-portfolio\projects\web_scraper\scraper.py", line 169, in main
+    output_path = save_to_excel(df)
+  File "C:\Users\ferna\PycharmProjects\python-automation-portfolio\projects\web_scraper\scraper.py", line 147, in save_to_excel
+    header_format = workbook.add_format({
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Workbook' object has no attribute 'add_format'
+2025-06-25 00:13:10,829 - INFO - Starting book scraping process
+2025-06-25 00:13:10,829 - INFO - Scraping page 1/3
+2025-06-25 00:13:12,813 - INFO - Scraping page 2/3
+2025-06-25 00:13:14,873 - INFO - Scraping page 3/3
+2025-06-25 00:13:16,638 - INFO - Data saved to output\books_data.xlsx
